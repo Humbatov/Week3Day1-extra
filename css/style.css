@@ -1,0 +1,318 @@
+html, body {
+    margin: 0;
+    padding: 0;
+
+}
+
+/*    Fonts     */
+@font-face{
+    font-family: Pacifico;
+    src: url(../fonts/Pacifico.ttf)
+}
+
+@font-face{
+    font-family: Swansea;
+    src: url(../fonts/Swansea.ttf);
+}
+
+@font-face{
+    font-family:Raleway;
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+
+/*    Main     */
+
+.main{
+    width: 1600px;
+    margin: 10px auto;
+    background-color: #ffffff;
+}
+
+/*    Header     */
+
+.header {
+    width: 100%;
+    height: 610px;
+    position: relative;
+}
+
+.header__line{
+    width: 100%;
+    height: 10px;
+    background-color: #2ecc71;
+
+}
+
+.header__img{
+    width: 100%;
+    height: 600px;
+    
+}
+
+.header__img_hand{
+    width: 439px;
+    height: 505px;
+    position: absolute;
+    top: 105px;
+    left: 899px;
+}
+
+.header__desc{
+    position: absolute;
+    left: 324px;
+    color: #ffffff;
+}
+
+.header__desc_h1{
+    top: 132px;
+    font-family: Pacifico;
+    font-size: 60px;
+    font-weight: 400;
+    
+}
+
+.header__desc_p{
+    top: 271px;
+    font: 500 24px / 36px Swansea;
+    
+}
+
+.header__desc_icon{
+    top: 380px;
+}
+
+.icon{
+    display: inline-block;
+    position: absolute;
+}
+
+.icon__circle{
+    width: 53px;
+    height: 53px;
+    border-radius: 50%;
+    background: #000000;
+    opacity: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    float: left;
+    
+
+}
+
+.icon__circle:hover{
+    background-color: #2ecc71;
+    opacity: 1;
+}
+
+.icon__img{
+    margin:0;
+}
+
+/*    Description     */
+
+.description{
+    width: 100%;
+    height: 335px;
+}
+
+.description__item{
+    float: left;
+    margin: 46px 50px;
+}
+
+.description__item_left{
+    margin-left: 210px;
+}
+
+.preview{
+    width: 320px;
+    height: 240px;
+    
+}
+
+.preview__h1{
+    font: 600 22px / 18px Raleway;
+    color: #222222;
+    text-align: center;
+}
+
+.preview__p{
+    font:400 16px / 26px Swansea;
+    color: #848484;
+    padding: 3px;
+    text-align: center;
+}
+
+.preview__circle{
+    width: 98px;
+    height: 98px;
+    border-radius: 50%;
+    background-color: #2ecc71;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    
+
+}
+
+.preview__img{
+    margin: 0;
+}
+
+/*    Notify     */
+
+.notify{
+    width: 100%;
+    height: 427px;
+    background-color: #e3e3e3;
+}
+
+.notify__item{
+    margin: 60px 140px;
+}
+
+.notify__item_video{
+    margin-top: 60px;
+}
+
+
+.get-notify{
+    width: 560px;
+    height: 230px;
+    float: left;
+}
+
+.get-notify__header{
+    font: 600 22px / 18px Raleway;
+    color: #222222;
+    padding: 10px;
+}
+
+.get-notify__paragraph{
+    font: 400 16px / 26px Swansea;
+    color: #848484;
+    padding: 10px;
+    text-align: left;
+}
+
+input[type="email"]{
+    width: 279px;
+    height: 56px;
+    background:#ffffff;
+    font: 400 18px / 18px Swansea;
+    margin-left: 10px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    color: #848484;
+    border: transparent;
+    padding-left: 26px;
+    margin-top: -1px;
+    
+    
+}
+
+input[name="submit"]{
+    width: 141px;
+    height: 56px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #2ecc71;
+    font: 700 22px / 18px Raleway;
+    color: #ffffff;
+    border: transparent;
+    
+}
+
+.notify-video{
+    width: 500px;
+    height: 307px;
+    border-radius: 15px;
+
+}
+
+/*    Social Network     */
+
+.social-network{
+    width:100%;
+    height: 466px;
+    
+}
+
+.social-network-icon{
+    width: 34px;
+    height: 34px;
+    margin: 5px;
+}
+
+.social-network__paragraph{
+    width: 825px;
+    line-height: 30px;
+    font: italic 18px / 30px Swansea;
+    color: #848484;
+    margin: 60px 388px;
+}
+
+.social-network__header{
+    font: 700 18px / 20px Raleway;
+    color: #2e2e2e;
+    text-align: center;
+}
+
+.social-network__header_big{
+    font: 600 24px / 24px Raleway;
+    color: #000000;
+    text-align: center;
+}
+.social-network__paragraph_small{
+    font: 400 16px / 26px Realway;
+    color: #848484;
+    text-align: center;
+}
+
+.social-network__item{
+    margin-left:680px;
+}
+
+.social-network__item_nav{
+    margin: 10px 0 20px 256px;
+}
+
+/*    Footer     */
+.footer{
+    width: 100%;
+    height: 130px;
+    background-color: #e3e3e3;
+}
+
+.footer__item{
+    margin: 30px 0 0 500px;
+}
+
+.nav{
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+    
+    
+}
+
+.nav__item{
+    display: inline-block;
+    margin: 10px 14px;
+
+}
+.nav__item_image{
+    display: inline-block;
+    margin: 10px 5px 10px 0px;
+}
+
+
+.nav__item_link{
+    text-decoration: none;
+    font: 400 16px / 26px Swansea;
+    color: #848484;
+    
+}
